@@ -94,7 +94,7 @@ def main():
 
     # Sidebar with info
     with st.sidebar:
-        st.image("static/img.jpg", caption="Crop Recommendation", use_column_width=True)
+        st.image("static/img.jpg", caption="Crop Recommendation", use_container_width=True)
         st.markdown("### 📋 How to use:")
         st.markdown("""
         1. **Enter soil nutrient values** (N, P, K, pH)
